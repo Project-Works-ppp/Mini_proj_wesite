@@ -1,13 +1,125 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+.navbar{
+  background-color:white!important;
+  
+}
+.navbar-brand{
+  font-size: 1.9rem !important;
+  color:black !important;
+  font-family:Satisfy ;
+}
+.navbar-brand1{
+  color:rgb(78, 9, 47) !important;
+  font-size: 2.5rem !important;
+}
+.navbar a:hover{
+  color: white !important;
+}
+.menu_active{
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+.brand-name{
+  color:#0a1f2e !important;
+  font-family:Satisfy ;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bgimg{
+  background-repeat: no-repeat;
+    background-size: cover;
+  height:'1000vh',
 }
+.app1{
+  margin: "30px";
+  padding:10px;
+  justify-content:center;
+  color:black;
+      
+  box-shadow: 0 70px 30px 0 rgba(124, 84, 84, 0.19);
+}
+.icon{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.text{
+  color:black;
+  font-weight:bold;
+  font-size:60px;
+}
+.icon_class>.MuiSvgIcon-root{
+  color:aqua;
+}
+.button2{
+  padding-left: 170px;
+
+}
+
+.button3{
+  padding-left: 550px;
+
+}
+.row{
+  padding-left: 80px;
+}
+
+.text-center{
+  text-align:center;
+}
+#header {
+  width: 100%;
+  height: 50vh;
+  margin-top: 60px;
+}
+#header .button1{
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: rgb(148, 61, 79);
+  border:2px solid rgb(148, 61, 79);
+  text-decoration: none;
+}
+#header .button1:hover{
+  background:rgb(148, 61, 79) ;
+  color: #fff;
+}
+.navbar .button1{
+  text-align: center;
+  font-weight: 100;
+  font-size: 10px;
+  letter-spacing: 2px;
+  display: inline-block;
+  padding: 10px 50px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: rgb(148, 61, 79);
+  border:2px solid rgb(148, 61, 79);
+  text-decoration: none;
+}
+.navbar .button1:hover{
+  background:rgb(148, 61, 79) ;
+  color: #fff;
+}
+
+.footer {
+  display:flex;
+  background-color: black;
+  color:white !important;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  width: 100%;
+  border-top: 1px solid white;
+  justify-content:center;
+     align-items:center;
+   opacity: 0.6;
+  
+  }
