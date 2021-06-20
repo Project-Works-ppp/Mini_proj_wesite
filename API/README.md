@@ -1,4 +1,4 @@
-# StudentArena-API
+#**StudentArena-API**
 
 Link for heroku app: (https://studentarena-api.herokuapp.com/jobs?title=name)
 
@@ -9,3 +9,8 @@ App has already been deployed to Heroku.
 
 
 cosine.py file has the ml model ,which has been imported in the appp.py file.
+
+
+#Deployed API Image
+
+![image](Screenshot(1601).png)
