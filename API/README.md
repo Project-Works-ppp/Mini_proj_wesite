@@ -13,4 +13,4 @@ cosine.py file has the ml model ,which has been imported in the appp.py file.
 
 #Deployed API Image
 
-![image](Screenshot(1601).png)
+![image](https://github.com/Project-Works-ppp/Mini_proj_wesite/tree/main/API/Screenshot(1601).png)
